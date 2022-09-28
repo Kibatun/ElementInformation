@@ -21,7 +21,7 @@ namespace ElementInformation
     public partial class ObjectWindow : Window
     {
         public ElementInformation()
-        {
+        { 
             InitializeComponent();
         }
     }
