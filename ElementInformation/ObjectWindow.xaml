@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:ElementInformation"
         mc:Ignorable="d" 
         Height="450" Width="800">
-    <Grid>
-            
-    </Grid>
+	<Grid>
+		<StackPanel>
+			<TextBlock>Шла Саша по шоссе и сосала сушку</TextBlock>
+			<TextBlock Text="Сели встали" />
+		</StackPanel>
+	</Grid>
 </Window>

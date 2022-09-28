@@ -16,9 +16,9 @@ using System.Windows.Shapes;
 namespace ElementInformation
 {
     /// <summary>
-    /// Логика взаимодействия для ElementInformation.xaml
+    /// Логика взаимодействия для ObjectWindow.xaml
     /// </summary>
-    public partial class ElementInformation : Window
+    public partial class ObjectWindow : Window
     {
         public ElementInformation()
         {

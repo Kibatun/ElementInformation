@@ -54,13 +54,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command.cs" />
-    <Compile Include="ElementInformation.xaml.cs">
-      <DependentUpon>ElementInformation.xaml</DependentUpon>
+    <Compile Include="ObjectWindow.xaml.cs">
+      <DependentUpon>ObjectWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ElementInformation.xaml">
+    <Page Include="ObjectWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
