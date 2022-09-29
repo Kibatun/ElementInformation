@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace ElementInformation
     /// <summary>
     /// Логика взаимодействия для ObjectWindow.xaml
     /// </summary>
-    public partial class ObjectWindow : Window
+    public partial class ElementInformation : Window
     {
         public ElementInformation()
         { 

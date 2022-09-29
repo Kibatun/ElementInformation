@@ -4,12 +4,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
         xmlns:local="clr-namespace:ElementInformation"
-        mc:Ignorable="d" 
-        Height="450" Width="800">
+        mc:Ignorable="d"
+		Title ="Информация об элементе"
+		MinWidth="340"
+		SizeToContent="WidthAndHeight"
+		>
 	<Grid>
 		<StackPanel>
-			<TextBlock>Шла Саша по шоссе и сосала сушку</TextBlock>
-			<TextBlock Text="Сели встали" />
+			<TextBlock Text="Семейство:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="14"/>
+			<TextBlock x:Name="TB_Family" HorizontalAlignment="Left" Margin="145,-18,10,10" FontSize="14"/>
+			<TextBlock Text="Категория:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="14"/>
+			<TextBlock Name="TB_Category" HorizontalAlignment="Left" Margin="145,-18,10,10" FontSize="14"/>
+			<TextBlock Text="Тип:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="14"/>
+			<TextBlock Name="TB_Type" HorizontalAlignment="Left" Margin="145,-18,10,10" FontSize="14"/>
+			<TextBlock Text="Название элемента:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="14"/>
+			<TextBlock Name="TB_Name" HorizontalAlignment="Left" Margin="145,-18,10,10" FontSize="14"/>
+			<TextBlock Text="ID элемента:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="14"/>
+			<TextBlock Name="TB_Id" HorizontalAlignment="Left" Margin="145,-18,10,10" FontSize="14"/>
 		</StackPanel>
 	</Grid>
 </Window>
